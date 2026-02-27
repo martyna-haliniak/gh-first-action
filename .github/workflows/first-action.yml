@@ -1,7 +1,7 @@
 name: First Workflow
 on: workflow_dispatch   #manual trigger
 jobs:
-  first-job:   #any name
+  first-job:   #any name (not a command)
     runs-on: windows-latest
     steps:
       - name: Print greeting
