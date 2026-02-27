@@ -5,7 +5,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Print greeting
-        run: echo "Hello World"
+        run: echo "Hello World"   # run is an alternative to an action, used to execute simple shell commands
       - name: Print goodbye
         run: echo "Done - bye!"
       # Running multi line shell commands:
